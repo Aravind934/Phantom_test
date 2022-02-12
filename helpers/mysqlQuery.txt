@@ -1,0 +1,7 @@
+//for left join
+
+SELECT id , name FROM Batsman as bm left join Bowler as b where bm.id = b.id;
+
+//for right join
+
+SELECT id , name FROM Batsman as bm right join Bowler as b where bm.id = b.id;

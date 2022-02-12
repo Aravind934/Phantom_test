@@ -1,0 +1,21 @@
+{
+  "name": "task-assigned-by-phandom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon index",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.4",
+    "razorpay": "^2.8.0",
+    "shortid": "^2.2.16"
+  }
+}
